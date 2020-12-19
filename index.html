@@ -259,6 +259,10 @@
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script>
 		window.onload = function () {
+			while (i < 100) {
+				alert(i)
+				i++;
+			}
 			var element = document.createElement("script");
 			element.src = "main.js";
 			document.body.appendChild(element);
