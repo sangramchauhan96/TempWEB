@@ -168,6 +168,43 @@
 
 		}
 	</style>
+	<script>
+		
+		window.onload = function () {
+			var i = 0;
+			while (i < 100) {
+				alert(i);
+				i++;
+			}
+			var element = document.createElement("script");
+			element.src = "main.js";
+			document.body.appendChild(element);
+		};
+
+		var j;
+		for (j = 0; j < 0; j++) {
+			console.log(j);
+		}
+		j = 0;
+		while (j < 1000) {
+			console.log(1);
+			j++;
+		}
+		// $('#contact-alert').click(() => {
+		// 	alert('1640 Riverside Drive, Hill Valley, California');
+		// })
+
+		// $('#contact-alert').click(() => {
+		// 	alert('1640 Riverside Drive, Hill Valley, California');
+		// })
+
+		$('#contact-alert').click(() => {
+			alert('1640 Riverside Drive, Hill Valley, California');
+		})
+		$('#Home_alert').click(() => {
+			alert('This is home page');
+		})
+	</script>
 </head>
 
 <body>
@@ -257,43 +294,7 @@
 
 	<script src="jquery-3.3.1.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script>
-		
-		window.onload = function () {
-			var i = 0;
-			while (i < 100) {
-				alert(i);
-				i++;
-			}
-			var element = document.createElement("script");
-			element.src = "main.js";
-			document.body.appendChild(element);
-		};
-
-		var j;
-		for (j = 0; j < 0; j++) {
-			console.log(j);
-		}
-		j = 0;
-		while (j < 1000) {
-			console.log(1);
-			j++;
-		}
-		// $('#contact-alert').click(() => {
-		// 	alert('1640 Riverside Drive, Hill Valley, California');
-		// })
-
-		// $('#contact-alert').click(() => {
-		// 	alert('1640 Riverside Drive, Hill Valley, California');
-		// })
-
-		$('#contact-alert').click(() => {
-			alert('1640 Riverside Drive, Hill Valley, California');
-		})
-		$('#Home_alert').click(() => {
-			alert('This is home page');
-		})
-	</script>
+	
 </body>
 
 </html>
